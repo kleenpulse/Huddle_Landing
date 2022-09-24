@@ -18,6 +18,20 @@
   text-decoration: none;
 }
 
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  translate: -100% 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  translate: 0 0;
+}
+
+
 main .container h2 {
   color: var(--grey-6);
   font-size: 2.4rem;
@@ -26,7 +40,7 @@ main .container h2 {
 
 main .container .header {
   font-family: "poppins", sans-serif;
-  background: url(bg-hero-desktop.svg);
+  background: url(assets/bg-hero-desktop.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -197,7 +211,7 @@ main .container .header .header-con .second .try-it img {
     padding: 1.3rem;
   }
      main .container .header {
-       background: url(bg-hero-mobile.svg);
+       background: url(assets/bg-hero-mobile.svg);
      }
 
   main .container .header .header-con .section button {

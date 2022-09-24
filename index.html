@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
         integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="scripts/app.js" defer></script>
     <title>Huddle Landing</title>
 </head>
 
@@ -23,9 +24,9 @@
                 <div class="header-con">
                     <div class="first image">
 
-                        <img src="logo.svg" alt="">
+                        <img class="hidden" src="assets/logo.svg" alt="">
                        
-                        <button>Try it Free</button>
+                        <button class="hidden">Try it Free</button>
                     </div>
 
                     <div class="second btn">
@@ -41,7 +42,7 @@
                                 <button class="btn-pink">Get Started For Free</button>
 
                             </div>
-                            <img src="illustration-mockups.svg" alt="">
+                            <img src="assets/illustration-mockups.svg" alt="">
                         </div>
 
 
@@ -56,25 +57,25 @@
 
                     <div class="card">
 
-                        <div class="word">
-                            <h2>Grow Together</h2>
-                            <p>Generate meanungful discussions with your audience and build a strong, loyal community.
+                        <div class="word ">
+                            <h2 class="hidden">Grow Together</h2>
+                            <p class="hidden">Generate meanungful discussions with your audience and build a strong, loyal community.
                                 Think
                                 of the insightful conversations you miss out on with a feedback form.</p>
                         </div>
-                        <div class="image left-img">
-                            <img src="illustration-grow-together.svg" alt="">
+                        <div class="image left-img ">
+                            <img class="hidden" src="assets/illustration-grow-together.svg" alt="">
                         </div>
                     </div>
 
                     <div class="card card-2">
 
                         <div class="image">
-                            <img src="illustration-flowing-conversation.svg" alt="">
+                            <img class="hidden" src="assets/illustration-flowing-conversation.svg" alt="">
                         </div>
                         <div class="word">
-                            <h2>Flowing Conversations</h2>
-                            <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+                            <h2 class="hidden">Flowing Conversations</h2>
+                            <p class="hidden">You wouldn't paginate a conversation in real life, so why do it online? Our threads have
                                 just-in-time loading for a more natural flow.</p>
                         </div>
                     </div>
@@ -82,12 +83,12 @@
                     <div class="card">
 
                         <div class="word">
-                            <h2>Your Users</h2>
-                            <p>It takes no time at all to integrate Huddle with your app's authentication solution. This
+                            <h2 class="hidden">Your Users</h2>
+                            <p class="hidden">It takes no time at all to integrate Huddle with your app's authentication solution. This
                                 means, once signed in to your app, your users can start chatting immediately.</p>
                         </div>
-                        <div class="image left-img">
-                            <img src="illustration-your-users.svg" alt="">
+                        <div class="image left-img hidden">
+                            <img class="hidden" src="assets/illustration-your-users.svg" alt="">
                         </div>
                     </div>
 
@@ -99,13 +100,13 @@
             <div class="footer">
                 <div class="card">
                     <div class="overflow">
-                        <h2>Ready To Build Your Community?</h2>
-                        <button class="btn-pink">Get Started For Free</button>
+                        <h2 class="hidden">Ready To Build Your Community?</h2>
+                        <button class="btn-pink hidden">Get Started For Free</button>
                     </div>
                 </div>
                 <div class="cards-footer">
-                    <div class="item 1">
-                        <img src="logo-footer.svg" alt="">
+                    <div class="item 1 hidden">
+                        <img src="assets/logo-footer.svg" alt="">
                         <span class="icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </span>
@@ -130,21 +131,21 @@
                         </p>
                     </div>
                     <div class="item 2">
-                        <ul>
+                        <ul class="hidden">
                             <li><a href="#">About Us</a></li>
                             <li><a href="#">What We Do</a></li>
                             <li><a href="#">FAQ</a></li>
                         </ul>
                     </div>
                     <div class="item 3">
-                        <ul>
+                        <ul class="hidden">
                             <li><a href="#">Career</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="item 4">
-                        <ul>
+                        <ul class="hidden">
                             <li><i class="fab fa-facebook-f"></i></li>
 
                             <li><i class="fab fa-twitter"></i></li>
@@ -156,7 +157,7 @@
                 </div>
                 <div class="copyright">
                     <div class="words">
-                        <p>©️Copyright 2018 Huddle. All rights reserved.</p>
+                        <p class="hidden">©️Copyright 2018 Huddle. All rights reserved.</p>
                     </div>
                 </div>
             </div>
